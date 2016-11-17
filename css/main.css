@@ -16,3 +16,57 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card-img img {
+  display: block;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-body h2 {
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.card {
+  margin-top: .75em;
+  margin-bottom: 1.5em;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .card-body {
+    display: inline-block;
+    width: 320px;
+    margin-bottom: 1.6em;
+  }
+
+  .card-img {
+    display: inline-block;
+  }
+
+  .card {
+    margin: 0;
+  }
+
+  .card-body h2 {
+    margin: 0;
+    margin-left: .5em;
+  }
+
+  .card-body p {
+    margin-left: .75em;
+  }
+}
